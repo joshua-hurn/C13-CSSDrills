@@ -1,0 +1,113 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: lightgray;
+}
+
+h2, p, .readme-wrapper{
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: lime;
+}
+
+a:hover {
+    cursor: pointer;
+    font-weight: 600;
+    color: mediumpurple;
+}
+
+span {
+    font-weight: 600;
+    color: midnightblue;
+}
+
+/* ems and rems are based on font-size. */
+.boxes {
+    display: block;
+    position: relative;
+    margin: 3em;
+    padding: 0.5em;
+    border: 3px solid #106464;
+    border-radius: 8px;
+    width: 30em;
+}
+
+#box1 {
+    background-color: moccasin;
+}
+
+/* absolutely positioned elements are absolute only to the first parent element that is position:relative */
+#box2 {
+    /* position: absolute;
+    bottom: 576px;
+    left: 614px; */
+    background-color: khaki;
+}
+
+#box3 {
+    background-color: grey;
+}
+
+#box4 {
+    background-color: lemonchiffon;
+}
+
+.image {
+    position: absolute;
+    top: 18px;
+    left: 79px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: #ff0914;
+}
+
+h1 {
+    color: lightgoldenrodyellow;
+}
+
+.original {
+    color: lightseagreen;
+}
+
+.additional {
+    color: maroon;
+}
+
+#show1 {
+    color: mediumorchid;
+}
+
+#show2 {
+    color: brown;
+}
+
+#show1 {
+    color: hotpink;
+}
+
+#show4 {
+    color: forestgreen;
+}
+
+#show5 {
+    color: orangered;
+}
+
+ul {
+    color: papayawhip;
+}
+
+.star {
+    color: rebeccapurple;
+}
+
+#wars {
+    color: salmon;
+}
+
+.list-container {
+    border: 1px solid black;
+}

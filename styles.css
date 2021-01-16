@@ -40,9 +40,9 @@ span {
 
 /* absolutely positioned elements are absolute only to the first parent element that is position:relative */
 #box2 {
-    /* position: absolute;
+    position: absolute;
     bottom: 576px;
-    left: 614px; */
+    left: 614px;
     background-color: khaki;
 }
 
